@@ -9,8 +9,8 @@ app = FastAPI()
 app.add_middleware(SessionMiddleware, secret_key="your-secret-key")
 
 # Use your Google OAuth credentials here
-CLIENT_ID = "1058201908455-usfukfrjs5s5n33qa0fgst9snevkkpci.apps.googleusercontent.com"
-CLIENT_SECRET = "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"
+CLIENT_ID = "418414008335-63bkfhl271mce5n7gi9517ajebim10dg.apps.googleusercontent.com"
+CLIENT_SECRET = "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"
 REDIRECT_URI = "http://127.0.0.1:8000/auth/callback"
 SCOPE = "openid email profile"
 
