@@ -10,7 +10,7 @@ app.add_middleware(SessionMiddleware, secret_key="your-secret-key")
 
 # Use your Google OAuth credentials here
 CLIENT_ID = "418414008335-63bkfhl271mce5n7gi9517ajebim10dg.apps.googleusercontent.com"
-CLIENT_SECRET = "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"
+CLIENT_SECRET = "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"
 REDIRECT_URI = "http://127.0.0.1:8000/auth/callback"
 SCOPE = "openid email profile"
 
